@@ -1,0 +1,18 @@
+
+   :: 미니언즈 웹사이트 제작예제
+
+ 1) 교사용 PC - Study_View - minions 폴더 복사하기
+
+ 2) 실습PC 로컬(D:\학생용)에 붙여넣기
+
+3) Visual Studio Code - 파일 > 폴더 열기 .. 선택 후 복사해온 minions 폴더 선택하기
+
+4) index.html, css/style.css, reset.css 만들기
+
+5) 시간내에 완성해보기
+
+    - 레이아웃 기법 실습 : block, inline 특성 이해하고 position, float 사용해서
+       화면을 완성합니다.
+
+   - 완성되면 github에 저장소 만들고 push 한 뒤, github pages로 웹서비스
+      URL로 접근할 수 있도록 각종 설정(Open Graph 적용, 파비콘 적용등..)하기

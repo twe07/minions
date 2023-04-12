@@ -1,0 +1,146 @@
+@import "./reset.css";
+
+body {
+    font-family: "Maven Pro", "Noto Sans KR", sans-serif
+}
+/*
+body::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #f9c02d;
+    position: fixed;
+    left: 0;
+    top: 207px;
+}
+*/
+/*
+.header-wrap {
+    max-width: 1190px; 
+    margin: 0 auto;
+}
+*/
+.header-top {
+    width: 1190px; /* 블럭요소의 기본 폭 */
+    margin: 0 auto;
+    position: relative;
+    height: 210px;
+}
+.links {
+    position:absolute;
+    left: 0;
+    top: 70px;
+}
+.links a {
+    color: #666;
+    font-weight: 500;
+    transition: all .4s
+}
+.links a:hover {
+    color: #000
+}
+.links a::after {
+    content: '|';
+    margin: 0 10px;
+}
+.links a:nth-last-child(1)::after {
+    content: '';
+    margin: 0;
+}
+.main-logo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -150px;
+}
+.sns {
+    position: absolute;
+    right: 0;
+    top: 70px;
+
+}
+
+nav {
+    border-top: 2px solid #f9c02d;
+    position: relative;
+    top:-3px;
+}
+#gnb {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+/* 
+    선택자 선택자 : 후손 선택자
+    선택자 > 선택자 : 자손 선택자
+*/
+#gnb li {
+   display: inline-block;
+   margin: 0 10px;
+}
+#gnb li a {
+    font-size: 1.125rem; 
+    font-weight: 700; /* 100~900 단위없는 숫자값, thin, bold, bolder 키워드 */
+    color: #f9c02d;
+    transition: all .4s ease-in-out;
+}
+#gnb li a:hover {
+    color: #000;
+}
+
+.youtube {
+    position: relative;
+    padding-bottom: 56.25%
+}
+
+#movie {    
+    position: absolute;    
+    width: 100%;    
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.main-character {
+    position: absolute;
+    left: 50%;
+    margin-left: -189px;
+    bottom: -140px;  /* 영상 경계 아래, 다리~엉덩이 사이 위치 */
+}
+
+.article-title {
+    text-align: center;
+    text-transform: capitalize;   /* 텍스트-변형: 첫글자 대문자 */
+    margin: 150px 0 20px 0;
+}
+.chars {
+    max-width: 926px;
+    margin: 0 auto;
+    font-size: 0; 
+    overflow: hidden;  /* side effect, 원래의 의도는 아니지만 어쨌거나 해결됨 */
+}
+.chars li {
+    float: left;
+}
+.chars li img {
+    border: 1px solid #f9c02d;
+}
+
+aside {
+    background: #f9c02d;;
+}
+
+.event {
+    max-width: 920px;
+    margin: 100px auto;
+}
+
+.footer-wrap {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+.extra-links li{
+    float: left;
+}
